@@ -8,11 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "!/assets/**",
-        "destination": "/index.html"
-      },
-      {
-        "source": "!/api/**",
+        "regex": "^\/(([^a]|a[^sp]|(as[^s]|ap[^i])|(ass[^e]|api[^\/])|asse[^t]|asset[^s]|assets[^\/])).*$",
         "destination": "/index.html"
       }
     ]
